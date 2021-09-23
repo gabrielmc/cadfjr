@@ -15,7 +15,7 @@ from shapely.geometry import point
 
 
 
-
+# Lembrar com relação ao banco não serão para o usuário passar como parametro.
 string = input('Copie e cole o texto do seu memorial descritivo aqui:')
 EPSG = int(input('EPSG de saída: '))
 caminho_saida = input('insira o caminho de saída mais o nome do arquivo com a extensão (ex: C:\geo\shape_python\saida1.shp): ')
